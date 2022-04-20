@@ -1,0 +1,34 @@
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.LoggerService.deps.json
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.LoggerService.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.LoggerService.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.Contracts.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.Contracts.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.csproj.AssemblyReference.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.AssemblyInfoInputs.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.AssemblyInfo.cs
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.csproj.CoreCompileInputs.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.csproj.CopyComplete
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\refint\Northwind.LoggerService.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\obj\Debug\net5.0\ref\Northwind.LoggerService.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.Entities.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.Entities.pdb
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.LoggerService.deps.json
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.LoggerService.dll
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.LoggerService.pdb
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.Contracts.dll
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.Entities.dll
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.Contracts.pdb
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\bin\Debug\net5.0\Northwind.Entities.pdb
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.AssemblyInfo.cs
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.csproj.CopyComplete
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.dll
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\obj\Debug\net5.0\refint\Northwind.LoggerService.dll
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\obj\Debug\net5.0\Northwind.LoggerService.pdb
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.LoggerService\obj\Debug\net5.0\ref\Northwind.LoggerService.dll

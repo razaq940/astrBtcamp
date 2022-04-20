@@ -1,0 +1,30 @@
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Contracts.deps.json
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Contracts.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Contracts.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.csproj.AssemblyReference.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.AssemblyInfoInputs.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.AssemblyInfo.cs
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.csproj.CoreCompileInputs.cache
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\refint\Northwind.Contracts.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\ref\Northwind.Contracts.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Entities.dll
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Entities.pdb
+C:\bootcamp\BATCH_ASTRA\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.csproj.CopyComplete
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Contracts.deps.json
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Contracts.dll
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Contracts.pdb
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Entities.dll
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Entities.pdb
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.AssemblyInfo.cs
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.csproj.CopyComplete
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.dll
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\obj\Debug\net5.0\refint\Northwind.Contracts.dll
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.pdb
+C:\Users\User\Desktop\Abdul Razaq\batch_astra_AspNetCoreWebApi-day01\batch_astra_AspNetCoreWebApi-day01\Domain\Northwind.Contracts\obj\Debug\net5.0\ref\Northwind.Contracts.dll
