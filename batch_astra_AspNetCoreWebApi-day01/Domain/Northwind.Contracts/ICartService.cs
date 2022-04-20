@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Northwind.Entities.Models;
+using Northwind.Entities.DTO;
 
 namespace Northwind.Contracts.Interfaces
 {
@@ -16,7 +17,7 @@ namespace Northwind.Contracts.Interfaces
         Tuple<int, OrderDetail?, string> ReduceProductQuantity(int productId);
         Tuple<int, OrderDetail?, string> RemoveProductFromChart(int productId);
         Tuple<int, Order?, string> Checkout(int id);
-        Tuple<int, Order?, string> Shipped(int id);
+        Tuple<int, Order?, string> Shipped(ShippedDto shippedDto, int id);
 
 
 

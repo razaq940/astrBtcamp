@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Northwind.Entities.Models;
+using Northwind.Entities.DTO;
 using Northwind.Contracts.Interfaces;
 using Northwind.Entities.Contexts;
 using Northwind.Contracts;
@@ -41,6 +42,7 @@ namespace Northwind.Repository.Models
                 #region addNewOrder
                 if (order == null)
                 {
+                    order = new Order();
                     order.CustomerId = custId;
                     order.OrderDate = DateTime.Now;
                     _repository.Order.CreateOrder(order);
@@ -52,9 +54,10 @@ namespace Northwind.Repository.Models
                 #region addNewOrderDetail
                 if (orderDetail == null)
                 {
+                    orderDetail = new OrderDetail();
                     orderDetail.OrderId = order.OrderId;
                     orderDetail.ProductId = productId;
-                    orderDetail.UnitPrice = (decimal)product.UnitPrice;
+                    orderDetail.UnitPrice = (decimal)((decimal)product.UnitPrice * quantity);
                     orderDetail.Quantity = (short)quantity;
                     _repository.OrderDetail.CreateOrderDetail(orderDetail);
                     _repository.Save();
@@ -66,10 +69,12 @@ namespace Northwind.Repository.Models
                     if(orderDetail.Quantity == null)
                     {
                         orderDetail.Quantity = (short)quantity;
+                        orderDetail.UnitPrice = (decimal)((decimal)product.UnitPrice * quantity);
                     }
                     else
                     {
                         orderDetail.Quantity += (short)quantity;
+                        orderDetail.UnitPrice += (decimal)((decimal)product.UnitPrice * quantity);
                     }
                     _repository.OrderDetail.UpdateOrderDetail(orderDetail);
                     _repository.Save();
@@ -89,26 +94,27 @@ namespace Northwind.Repository.Models
         
         public Tuple<int, Order, string> Checkout(int id)
         {
-            /*
+            
             Order order1 = new Order();
             try
             {
-                var order = repositoryContext.Orders.Find(id);
+                var order = _repository.Order.GetOrder(id, trackChanges : true);
                 if(order == null)
                 {
                     return Tuple.Create(-1, order, "Order Id is noty fund");
                 }
+                order = new Order();
                 order.RequiredDate = DateTime.Now;
-                List<OrderDetail> orderDetail = repositoryContext.OrderDetails.Where(o => o.OrderId == id).ToList();
+                List<OrderDetail> orderDetail = _repository.OrderDetail.GetAllOrderDetail(trackChanges: true).Where(o => o.OrderId == id).ToList();
                 foreach (var item in orderDetail)
                 {
-                    var product = repositoryContext.Products.Where(o => o.ProductId == item.ProductId).FirstOrDefault();
+                    var product = _repository.Product.GetProduct(item.ProductId, trackChanges: true);
                     product.UnitsInStock -= item.Quantity;
-                    repositoryContext.Update(product);
-                    repositoryContext.SaveChanges();
+                    _repository.Product.UpdateProduct(product);
+                    _repository.Save();
                 }
-                repositoryContext.Orders.Update(order);
-                repositoryContext.SaveChanges();
+                _repository.Order.UpdateOrder(order);
+                _repository.Save();
                 return Tuple.Create(1, order, "Succes");
 
             }
@@ -116,8 +122,8 @@ namespace Northwind.Repository.Models
             {
                 return Tuple.Create(-1, order1, ex.Message);
             }
-            */
-            throw new NotImplementedException();
+            
+            
         }
         
         public Tuple<int, IEnumerable<OrderDetail>, string> GetAllChart()
@@ -155,9 +161,32 @@ namespace Northwind.Repository.Models
             throw new NotImplementedException();
         }
 
-        public Tuple<int, Order, string> Shipped(int id)
+        public Tuple<int, Order, string> Shipped(ShippedDto shippedDto, int orderId)
         {
-            throw new NotImplementedException();
+            Order order1 = new Order();
+            try
+            {
+                var order = _repository.Order.GetOrder(orderId, trackChanges: true);
+                var customer = _repository.Customers.GetCustomer(order.CustomerId, trackChanges: false);
+                order.ShipAddress = customer.Address;
+                order.ShipCity = customer.City;
+                order.ShipRegion = customer.Region;
+                order.ShipPostalCode = customer.PostalCode;
+                order.ShipCountry = customer.Country;
+                order.ShipVia = shippedDto.ShipVia;
+                order.Freight = shippedDto.Freight;
+                order.ShipName = shippedDto.ShipName;
+                order.ShippedDate = shippedDto.ShippedDate;
+                _repository.Order.UpdateOrder(order);
+                _repository.Save();
+
+                return Tuple.Create(1, order, "succes");
+
+            }
+            catch(Exception Ex)
+            {
+                return Tuple.Create(-1, order1, Ex.Message);
+            }
         }
     }
 }

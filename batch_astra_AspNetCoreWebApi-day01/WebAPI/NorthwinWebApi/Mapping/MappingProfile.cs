@@ -14,6 +14,8 @@ namespace NorthwinWebApi.Mapping
             //CreateMap<CustomerDto, Customer>();
             CreateMap<ProductDto, Product>().ReverseMap();
             //CreateMap<Product, ProductDto>();
+            CreateMap<OrderDetail, OrderDetailDto>().ReverseMap();
+            CreateMap<Order, OrderDto>().ReverseMap();
         }
     }
 }

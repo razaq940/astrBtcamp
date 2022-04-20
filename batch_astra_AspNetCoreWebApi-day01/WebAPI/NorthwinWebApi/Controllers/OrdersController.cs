@@ -29,8 +29,42 @@ namespace NorthwinWebApi.Controllers
             _mapper = mapper;
         }
 
+        [HttpPost("Shipped")]
+        
+        public IActionResult Shipped(ShippedDto shippedDto, int id)
+        {
+            try
+            {
+                var result = _cartService.Shipped(shippedDto, id);
+                if (result.Item1 == -1)
+                {
+                    return BadRequest(result.Item3);
+                }
+                return Ok(_mapper.Map<OrderDto>(result.Item2));
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
 
-
+        [HttpPost("Checkout")]
+        public IActionResult CheckOut(int orderId)
+        {
+            try
+            {
+                var result = _cartService.Checkout(orderId);
+                if(result.Item1 == -1)
+                {
+                    return BadRequest(result.Item3);
+                }
+                return Ok(_mapper.Map<OrderDto>(result.Item2));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
         
         [HttpPost("AddToCart")]
         public IActionResult AddToChart(CartDto cartDto)
